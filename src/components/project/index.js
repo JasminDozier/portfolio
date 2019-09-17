@@ -1,7 +1,13 @@
 import React from "react";
+import ProjectRow from "./row";
 
 const Project = () => {
-  return <div>Project</div>;
+  return (
+    <>
+      <ProjectRow />
+      <ProjectRow />
+    </>
+  );
 };
 
 export default Project;
