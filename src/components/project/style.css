@@ -1,0 +1,6 @@
+.jd-card {
+  border-radius: 10px;
+}
+.jd-card .jd-image {
+  border-radius: 10px 10px 0 0;
+}

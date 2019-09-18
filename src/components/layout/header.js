@@ -3,9 +3,13 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <nav className="navbar" role="navigation" aria-label="main navigation">
+    <nav
+      className="navbar jd-header"
+      role="navigation"
+      aria-label="main navigation"
+    >
       <div className="navbar-brand">
-        <NavLink className="navbar-item" to="/about">
+        <NavLink className="navbar-item navBarLink" to="/about">
           About
         </NavLink>
         <div
@@ -23,16 +27,16 @@ const Header = () => {
 
       <div id="navbarBasicExample" className="navbar-menu">
         <div className="navbar-start">
-          <NavLink className="navbar-item" to="/">
-            Jasmin
+          <NavLink className="navbar-item logo" to="/">
+            JasminJoan
           </NavLink>
-          <NavLink className="navbar-item" to="/project">
+          <NavLink className="navbar-item navBarLink" to="/project">
             Project
           </NavLink>
-          <NavLink className="navbar-item" to="/contact">
+          <NavLink className="navbar-item navBarLink" to="/contact">
             Contact
           </NavLink>
-          <NavLink className="navbar-item" to="/blog">
+          <NavLink className="navbar-item navBarLink" to="/blog">
             Blog
           </NavLink>
         </div>

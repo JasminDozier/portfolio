@@ -1,14 +1,15 @@
 import React from "react";
+import "./style.css";
 
 const Contact = () => {
   return (
     <>
-      <div class="columns is-centered">
+      <div class="columns is-centered jd-contact">
         <div class="column is-three-fifths">
           <div className="field">
-            <label className="label">Name</label>
+            <label className="label contactForm">Name</label>
             <div className="control">
-              <input className="input" type="text" placeholder="name" />
+              <input className="input" type="text" placeholder="Name" />
             </div>
           </div>
 
