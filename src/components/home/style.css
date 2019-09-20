@@ -1,0 +1,5 @@
+.jd-home .jd-home-img {
+  border-radius: 50%;
+  filter: grayscale(100%);
+  opacity: 0.3;
+}

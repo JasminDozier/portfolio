@@ -1,7 +1,19 @@
+.flex-container {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
 .jd-header .logo {
   font-family: "Dancing Script", cursive;
   font-size: 50px;
   color: #b76e79;
+}
+
+a.navbar-item:hover.logo,
+a.navbar-item:hover {
+  color: #6e9eb7;
 }
 
 .jd-header .navBarLink {

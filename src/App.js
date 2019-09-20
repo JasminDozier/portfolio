@@ -1,12 +1,12 @@
 import React from "react";
 import { Route, BrowserRouter, Switch } from "react-router-dom";
+import "bulma/css/bulma.css";
 import Layout from "./components/layout";
 import Home from "./components/home";
 import About from "./components/about";
 import Contact from "./components/contact";
 import Project from "./components/project/index";
 import Blog from "./components/blog/index";
-import "bulma/css/bulma.css";
 import "./App.css";
 
 function App() {

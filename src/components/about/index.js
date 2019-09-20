@@ -1,23 +1,21 @@
 import React from "react";
+import "./style.css";
 
 const About = () => {
   return (
-    <div className="columns is-centered">
+    <div className="columns is-centered jd-about">
       <div className="column is-three-fifths">
         <div className="tile is-vertical">
           <div className="tile">
             <div className="tile is-child">
-              <article className="tile is-child notification">
-                <p className="title">Hi, My name is Jasmin!</p>
-                <figure className="image is-4by3">
-                  <img src="https://bulma.io/images/placeholders/640x480.png" />
-                </figure>
-              </article>
+              <figure className="image is-3by3 ">
+                <img src="aboutMePhoto.jpg" className="about-img" />
+              </figure>
             </div>
             <div className="tile is-parent is-5">
               <article className="tile is-child notification ">
                 <div className="content">
-                  <p className="title">Tall tile</p>
+                  <p className="title">Jasmin Dozier</p>
                   <p className="subtitle">
                     With even more content With even more content Lorem ipsum
                     dolor sit amet, consectetur adipiscing elit. Etiam semper
