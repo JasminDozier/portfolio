@@ -16,7 +16,7 @@ const Home = () => {
       </div>
       <div className="columns">
         <div className="column has-text-centered is-4 is-offset-4">
-          <p>
+          <p className="quote">
             “The game is gonna test you, never fold. Stay ten toes down. It’s
             not on you, it’s in you and what’s in you, they cannot take away.”
             -Nipsey Hussel

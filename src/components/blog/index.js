@@ -1,5 +1,6 @@
 import React from "react";
 import BlogCard from "./blogCard";
+import "./style.css";
 
 const Blog = () => {
   return (

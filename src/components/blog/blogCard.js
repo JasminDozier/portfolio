@@ -13,8 +13,8 @@ const BlogCard = props => {
           <div className="media-content">
             <div className="content">
               <p>
-                <strong>Jasmin Dozier</strong> <small>@jasminjoan_</small>{" "}
-                <small>31m</small>
+                <strong className="blogAuthor">Jasmin Dozier</strong>{" "}
+                <small>@jasminjoan_</small> <small>31m</small>
                 <br />
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
                 ornare magna eros, eu pellentesque tortor vestibulum ut.

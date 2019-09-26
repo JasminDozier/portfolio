@@ -1,0 +1,12 @@
+.jd-contact .label {
+  color: rgb(110, 158, 183);
+  text-decoration: underline;
+}
+
+.jd-contact .button.button.is-link {
+  background-color: #4caf50;
+}
+
+.jd-contact .button.is-text {
+  color: rgba(174, 16, 16, 0.863);
+}

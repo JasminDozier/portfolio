@@ -16,9 +16,11 @@ const Card = props => {
         <div className="card-content">
           <div className="content">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            nec iaculis mauris. <a>@bulmaio</a>.<a href="#">#css</a>{" "}
-            <a href="#">#responsive</a>
-            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+            nec iaculis mauris.
+            <a href="#">#css</a> <a href="#">#responsive</a>
+            <div>
+              <time datetime="2016-1-1">11:09 PM - 1 Jan 2019</time>
+            </div>
           </div>
         </div>
       </div>

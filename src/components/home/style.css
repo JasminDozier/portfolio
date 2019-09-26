@@ -3,3 +3,7 @@
   filter: grayscale(100%);
   opacity: 0.3;
 }
+
+.jd-home .quote {
+  color: rgba(40, 38, 38, 0.769);
+}
