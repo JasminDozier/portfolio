@@ -9,7 +9,7 @@ const About = () => {
           <div className="tile">
             <div className="tile is-child">
               <figure className="image is-3by3 ">
-                <img src="aboutMePhoto.jpg" className="about-img" />
+                <img src="aboutMePhoto.jpg" className="about-img" alt="me" />
               </figure>
             </div>
             <div className="tile is-parent is-5">

@@ -4,7 +4,7 @@ import "./style.css";
 
 const Blog = () => {
   return (
-    <div class="columns is-multiline is-centered">
+    <div className="columns is-multiline is-centered">
       <BlogCard />
       <BlogCard />
       <BlogCard />

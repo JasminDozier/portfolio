@@ -9,7 +9,7 @@ const Card = props => {
             <img
               className="jd-image"
               src="https://bulma.io/images/placeholders/1280x960.png"
-              alt="Placeholder image"
+              alt="Placeholder"
             />
           </figure>
         </div>
@@ -17,9 +17,9 @@ const Card = props => {
           <div className="content">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
             nec iaculis mauris.
-            <a href="#">#css</a> <a href="#">#responsive</a>
+            <a href="/">#css</a> <a href="/">#responsive</a>
             <div>
-              <time datetime="2016-1-1">11:09 PM - 1 Jan 2019</time>
+              <time dateTime="2016-1-1">11:09 PM - 1 Jan 2019</time>
             </div>
           </div>
         </div>

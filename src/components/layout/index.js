@@ -5,9 +5,11 @@ import "./style.css";
 
 const Layout = ({ children }) => {
   return (
-    <div className="container is-fluid">
+    <div className="container is-fluid jd-layout">
       <Header />
-      {children}
+        <main>
+          {children}
+        </main>
       <Footer />
     </div>
   );

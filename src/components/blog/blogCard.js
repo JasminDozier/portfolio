@@ -7,7 +7,7 @@ const BlogCard = props => {
         <article className="media">
           <figure className="media-left">
             <p className="image is-64x64">
-              <img src="https://bulma.io/images/placeholders/128x128.png" />
+              <img src="https://bulma.io/images/placeholders/128x128.png" alt=""/>
             </p>
           </figure>
           <div className="media-content">
@@ -24,17 +24,17 @@ const BlogCard = props => {
             </div>
             <nav className="level is-mobile">
               <div className="level-left">
-                <a className="level-item">
+                <a className="level-item" href="/">
                   <span className="icon is-small">
                     <i className="fas fa-reply"></i>
                   </span>
                 </a>
-                <a className="level-item">
+                <a className="level-item" href="/">
                   <span className="icon is-small">
                     <i className="fas fa-retweet"></i>
                   </span>
                 </a>
-                <a className="level-item">
+                <a className="level-item" href="/">
                   <span className="icon is-small">
                     <i className="fas fa-heart"></i>
                   </span>
