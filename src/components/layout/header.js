@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="flex-container">
+    <div className="columns is-centered jd-header">
       <nav
-        className="navbar jd-header"
+        className="navbar"
         role="navigation"
         aria-label="main navigation"
       >
