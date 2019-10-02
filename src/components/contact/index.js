@@ -3,9 +3,11 @@ import "./style.css";
 
 const Contact = () => {
   return (
-    <>
-      <div class="columns is-centered jd-contact">
-        <div class="column is-three-fifths">
+    <div>
+      <h1 className="contact-form-title">Get in Touch!</h1>
+
+      <div className="columns is-centered jd-contact">
+        <div className="column is-three-fifths">
           <div className="field">
             <label className="label contactForm">Name</label>
             <div className="control">
@@ -19,7 +21,7 @@ const Contact = () => {
               <input
                 className="input"
                 type="email"
-                placeholder="e.g. alexsmith@gmail.com"
+                placeholder="e.g. EddieWayne@gmail.com"
               />
             </div>
           </div>
@@ -41,7 +43,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -10,3 +10,8 @@
 .jd-contact .button.is-text {
   color: rgba(174, 16, 16, 0.863);
 }
+
+.contact-form-title {
+  font-size: 24px;
+  text-align: center;
+}

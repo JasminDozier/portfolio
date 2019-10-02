@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = props => {
   return (
-    <div className="column is-one-quarter is-offeset-one-quarter">
+    <div className="column is-one-quarter is-offeset-one-quarter ">
       <div className="card jd-card">
         <div className="card-image">
           <figure className="image is-4by3">
@@ -13,14 +13,16 @@ const Card = props => {
             />
           </figure>
         </div>
-        <div className="card-content">
+        <div className="card-content has-text-centered">
           <div className="content">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
             nec iaculis mauris.
-            <a href="#">#css</a> <a href="#">#responsive</a>
-            <div>
-              <time datetime="2016-1-1">11:09 PM - 1 Jan 2019</time>
-            </div>
+          </div>
+          <div>
+            <a href="#">Github</a>
+          </div>
+          <div>
+            <a href="#">Live Demo</a>
           </div>
         </div>
       </div>

@@ -4,6 +4,16 @@
   opacity: 0.3;
 }
 
-.jd-home .quote {
-  color: rgba(40, 38, 38, 0.769);
+.jd-quote {
+  font-family: "Kurale", serif;
+}
+
+.jd-quote .content {
+  color: rgba(33, 32, 32, 0.769);
+  font-weight: 400;
+  font-size: 23px;
+}
+
+.jd-quote .quote-container {
+  margin-top: 35px;
 }

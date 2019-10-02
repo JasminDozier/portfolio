@@ -3,7 +3,7 @@ import React from "react";
 const BlogCard = props => {
   return (
     <>
-      <div className="column is-10">
+      <div className="column is-10 jd-blog">
         <article className="media">
           <figure className="media-left">
             <p className="image is-64x64">

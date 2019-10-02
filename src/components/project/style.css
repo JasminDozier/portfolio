@@ -4,3 +4,7 @@
 .jd-card .jd-image {
   border-radius: 10px 10px 0 0;
 }
+
+.jd-card .content {
+  margin-bottom: 0;
+}
