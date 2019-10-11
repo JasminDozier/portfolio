@@ -5,3 +5,8 @@
 .jd-blog {
   padding: 0;
 }
+
+.column.is-8,
+.column.is-8-tablet {
+  width: 51%;
+}

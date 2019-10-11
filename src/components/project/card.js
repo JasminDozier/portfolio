@@ -17,10 +17,12 @@ const Card = props => {
           <div className="content">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
             nec iaculis mauris.
-            <a href="/">#css</a> <a href="/">#responsive</a>
-            <div>
-              <time dateTime="2016-1-1">11:09 PM - 1 Jan 2019</time>
-            </div>
+          </div>
+          <div>
+            <a href="/">Github</a>
+          </div>
+          <div>
+            <a href="/">Live Demo</a>
           </div>
         </div>
       </div>

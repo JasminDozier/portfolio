@@ -22,6 +22,7 @@ const Home = () => {
               <img
                 src="shahadat-shemul-O2MdroNurVw-unsplash.jpg"
                 className="jd-home-img"
+                alt="code"
               />
             </figure>
           </div>
